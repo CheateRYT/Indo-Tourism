@@ -1,0 +1,203 @@
+@font-face {
+  font-family: font;
+  src: local("font"), url(../font/font.ttf);
+}
+@font-face {
+  font-family: font_bold;
+  src: local("font_bold"), url(../font/font_bold.ttf);
+}
+b{
+  font-weight: normal;
+  font-family: 'font_bold';
+}
+.head_logo {
+  margin-right: 430px;
+  cursor: pointer;
+  display: block;
+  font-size: 36.4px;
+  line-height: 67px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  color: #1298dd;
+  .head_logo_Tourism {
+    font-size: 30.4px;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #8d8d8d;
+  }
+}
+
+.head_menu {
+  list-style: none;
+  li {
+    a {
+      text-decoration: none;
+      color: #676767;
+    }
+    display: inline-block;
+    padding: 0px 20px;
+  }
+}
+
+.head_contact {
+  margin-right: 150px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16.4px;
+  line-height: 33px;
+  text-align: center;
+  font-weight: 300;
+  width: 100px;
+  height: 33px;
+  background-image: linear-gradient(0deg, #1f84e7 0%, #37b3f8 100%);
+  border: 1px solid #1784d1;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 0px 0px rgba(136, 211, 251, 0.74);
+}
+
+body {
+  font-family: "font";
+  overflow-x: hidden;
+  color: #676767;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #ffffff;
+  height: 67px;
+  justify-content: space-around;
+  align-items: center;
+}
+.container{
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
+.big-image{
+  overflow: hidden; 
+height: 533px;
+background-image: url(/img/big_image_.png.png);
+background-repeat: no-repeat;
+background-size: cover;
+display: block;
+background-position: center center;
+width: 100%; 
+}
+.big-image_title{
+margin-top: 150px;
+margin-left: auto;
+  text-align: center;
+  font-size: 52.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.placebo{
+  height: 2000px;
+}
+.big-image_button{
+  cursor: pointer;
+  font-size: 34.4px;
+  margin: 30px 500px;
+  margin-left: auto;
+font-weight: 700;
+text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+color: #ffffff;
+  line-height: 70px;
+  text-align: center;
+  width: 286px;
+height: 70px;
+background-color: #636363;
+background-image: linear-gradient(0.0deg, #34ae22 0%, #6ed258 100%);
+border: 6px solid rgba(0,0,0,0.11);
+box-shadow: inset 0px 1px 0px 0px rgba(112,243,84,0.74);
+}
+.big-image_table{
+  position: absolute;
+margin-left: 409px;
+margin-top: 63px;
+}
+.big_image_min-title{
+  font-size: 26.4px;
+  position: absolute;
+line-height: 34px;
+font-weight: 300;
+margin-left: 300px;
+text-align: center;
+margin-top: 359px;
+color: #7e7c7c;
+}
+.points{
+
+
+    
+    .world_img{
+ margin-left: 265px !important;
+ margin-top: 505px !important;
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+.shop_img{
+  margin-left: 500px !important;
+  margin-top: 520px !important;
+       position: absolute;
+       cursor: pointer;
+}
+.photo_img{
+  margin-left: 700px !important;
+  margin-top: 530px !important;
+       position: absolute;
+       cursor: pointer;
+}
+.search_img{
+  margin-left: 900px !important;
+  margin-top: 520px !important;
+       position: absolute;
+       cursor: pointer;
+}
+.point_title{
+  display: flex;
+  margin-left: 250px !important;
+  margin-top: 630px !important;
+  font-size: 20.4px;
+line-height: 34px;
+font-weight: 300;
+color: #7e7c7c;
+  position: absolute;
+  .world_title{
+padding-right: 109px;
+  }
+  .shop_title{
+    padding-right: 100px;
+  }
+  .photo_title{
+    padding-right: 100px;
+  }
+}
+footer{
+  height: 31px;
+  background-color: #7e7c7c;
+  position: absolute;
+flex: 0 0 auto;
+width: 100%;
+
+margin-top: 630px !important;
+position: absolute;
+.footer_text{
+  opacity: 0.5;
+  text-align: center;
+  align-items: center;
+font-size: 14.4px;
+
+font-weight: 300;
+color: #ffffff;
+}
+}
